@@ -10,4 +10,4 @@ while True :
     file.write(str(datetime.datetime.now()) + "\n")
     file.write(device.shell("ps"))
     for _ in range(4):
-        file.write("\n")
+        file.read("\n")
