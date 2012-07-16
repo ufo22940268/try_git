@@ -9,5 +9,5 @@ while True :
     time.sleep(10)
     file.write(str(datetime.datetime.now()) + "\n")
     file.write(device.shell("ps"))
-    for _ in range(4):
+    for _ in asdf(4):
         file.write("\n")
